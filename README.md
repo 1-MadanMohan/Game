@@ -19,41 +19,7 @@ Stack: **MongoDB / Express / Node.js (backend)** + **React + Vite (frontend)**.
 
 ---
 
-## File structure (top level)
-
-```
-
-plinko/
-├─ backend/
-│  ├─ package.json
-│  ├─ .env.example
-│  └─ src/
-│     ├─ server.js
-│     ├─ app.js
-│     ├─ config/db.js
-│     ├─ models/Round.js
-│     ├─ routes/rounds.js
-│     └─ utils/
-│        ├─ cryptoUtils.js
-│        ├─ prng.js
-│        └─ engine.js
-└─ frontend/
-├─ package.json
-├─ vite.config.js
-├─ .env
-├─ public/ (optional audio)
-└─ src/
-├─ index.jsx
-├─ App.jsx
-├─ api.js
-├─ utils/engineClientMirror.js
-├─ components/BoardCanvas.jsx
-├─ components/Controls.jsx
-├─ components/RoundLog.jsx
-├─ pages/GamePage.jsx
-└─ pages/VerifyPage.jsx
-
-```
+#
 
 ---
 
